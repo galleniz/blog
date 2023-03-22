@@ -63,3 +63,25 @@ header {
     max-width: 100%;
   }
   
+  a.sub-b {
+    font-size: 110%;
+    width: 100%;
+    background-color: BLACK;
+    color:white;
+    align-items: center;
+    height:45px;
+    border-radius: 20px;
+display: inline-flex;
+
+    background-size: 400%;
+  }
+  a.sub-b text{
+    margin-left: 10px;
+  }
+line.epiclineever {
+
+  display: inline-block;
+    width: 100%;
+    background-color: black;
+    height: 5px;
+}

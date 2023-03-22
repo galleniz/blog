@@ -1,0 +1,18 @@
+<center>
+    <h1>
+hola, el botón home no sirve. ¿Quieres regresar a una página xd? <a href="index.html?d=yelmalditohome">click acá</a></h1> 
+<h2>(O bueno me siento humilde y dejaré los disponibles por momento así de cutre)</h2>
+
+
+</center>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="define.js"></script>
+<script>
+        this.blogs.forEach(blog => {
+            if (blog.meta !== "nothing")
+        document.write("<line class='epiclineever'></line><br></br><p></p><h1> " + blog.title + "</h1><h2> "+blog.description+"</h2> <h3>" +blog.fields[0].title +"</h3>"+ blog.fields[0].description.replaceAll("<br>", "<br></br>")+" - <a href='index.html?d=" + blog.meta +"'>ver más</a><p></p><a href='index.html?d=" + blog.meta +"'> <img src='"+blog.logo+"' width=25%></img></a><p></p>")
+
+        })
+</script>

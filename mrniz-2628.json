@@ -1,0 +1,42 @@
+{
+    "id": "482637805034668032",
+    "username": "MrNiz",
+    "global_name": null,
+    "display_name": null,
+    "avatar": "cd844f890cd94a24a237ed57bddb02f0",
+    "avatar_decoration": null,
+    "discriminator": "2628",
+    "public_flags": 4194560,
+    "banner": "a_03f59ed4204e0e17f0d8a5dbbc39de61",
+    "banner_color": "#ffffff",
+    "accent_color": 16777215,
+    "flags": [
+        "HOUSE_BALANCE",
+        "ACTIVE_DEVELOPER",
+        "NITRO"
+    ],
+    "avatarURL": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png",
+    "bannerURL": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif",
+    "avatarURLs": {
+        "16": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png?size=16",
+        "32": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png?size=32",
+        "64": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png?size=64",
+        "128": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png?size=128",
+        "256": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png?size=256",
+        "512": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png?size=512",
+        "1024": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png?size=1024",
+        "2048": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png?size=2048",
+        "4096": "https://cdn.discordapp.com/avatars/482637805034668032/cd844f890cd94a24a237ed57bddb02f0.png?size=4096"
+    },
+    "bannerURLs": {
+        "16": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif?size=16",
+        "32": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif?size=32",
+        "64": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif?size=64",
+        "128": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif?size=128",
+        "256": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif?size=256",
+        "512": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif?size=512",
+        "1024": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif?size=1024",
+        "2048": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif?size=2048",
+        "4096": "https://cdn.discordapp.com/banners/482637805034668032/a_03f59ed4204e0e17f0d8a5dbbc39de61.gif?size=4096"
+    }
+}

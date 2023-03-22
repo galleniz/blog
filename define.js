@@ -3,9 +3,36 @@ this.blogs = new Map();
 this.blogs.set("about", 
 {
     title: 'MizBlogs página',
+    meta: "about",
     logo: "img/logo.png",
     description: 'Una página para compartir blogs.',
     fields: [
+        {
+            title: 'Sistema de "comentarios de código" como el githubo',
+            description: `Weno solo es un cuadro negro que actúa como borde usado y creado pensado en <a href='index.html?d=mdc-api'>MDC-api</a> para comentar los comandos de método GET.
+            <br>
+        <a class="sub-b"> <text>Hola probando esto</text></a>
+        <br>
+
+        <a class="sub-b"> <text>lime test windows -debug</text></a>
+        <br>
+
+        <a class="sub-b"> <text>npm i discord.js</text></a>
+        <br>
+
+            `,
+            img: "img/quebello.png",
+            href: null
+    
+          },
+        {
+            title: 'Explicación de por qué aún no hay página de home xd (22-03-23)',
+            description: `Weno esto se debe que ando estructurizando un sistema eficiente y bonito y soy perfeccionista en estos casos para que se vea bonito y cómodo a la vista humana...<br><br>A continuación un ejemplo de cómo me gustaría hacerlo`,
+            img: "miadosblogs lik.png",
+            href: null
+    
+          },
+ 
       {
         title: 'Esto se actualiza cada...',
         description: `No me obligaré en dar un blog diario, pero daré varios blogs para que la gente lo pueda leer o verlo, pero nunca haré que haya más blogs innecesarios que no sea algo que a mi me agrade`,
@@ -17,9 +44,30 @@ this.blogs.set("about",
     img: 'img/ban.png'
   }
 )
+this.blogs.set("yelmalditohome",
+{
+    title: 'MizBlogs home page.',
+    meta: "yelmalditohome",
+
+    logo: "img/image.png",
+    description: '¿¡¿DÓNDE ESTÁ MALDITO HOME NIZ?!?.',
+    fields: [
+
+        {
+          title: 'Explicación de por qué aún no hay página de home xd.',
+          description: `Weno esto se debe que ando estructurizando un sistema eficiente y bonito y soy perfeccionista en estos casos para que se vea bonito y cómodo a la vista humana...<br><br>A continuación un ejemplo de cómo me gustaría hacerlo`,
+          img: "miadosblogs lik.png",
+          href: null
+  
+        }
+      ],
+}
+)
 this.blogs.set("nothing", 
 {
     title: 'MizBlogs Nothing',
+    meta: "nothing",
+
     logo: "img/img.png",
     description: 'Secreto.',
     fields: [
@@ -34,10 +82,61 @@ this.blogs.set("nothing",
     img: 'img/banner.jpg'
   }
 )
+this.blogs.set("mdc-api", 
+{
+    title: 'MDCDEV API',
+    logo: "img/mdc/pfp.jpg",
+    meta: "mdc-api",
+
+    description: 'Explicación del proyecto.',
+    fields: [
+      {
+        title: 'Explicación de la API',
+        description: `Nuestro gran amigo MDCDEV nos ha facilitado la vida creando su porpia API para obtener información de usuarios.<br>Usando el método "GET" podrás obtener datos de cualquier usuario con su ID. <p>A continuación un ejemplo de su esquema de usuario:</p>`,
+        img: "img/mdc/using.png",
+        href: null
+
+      },
+      {
+        title: '¡¿Cómo la uso?!',
+        description: `Para poder usarla en su totalidad no necesitas mucho.<p></p>Por momento solo está la versión 'v1' donde incluye no más los usuarios (21 de marzo de 2023 a fecha de creación del blog.), pero le puedes hacer peticiones para poder obtener esquemas de esta forma:`,
+        img: "img/mdc/get.png",
+        href: null
+
+      },
+      {
+        title: 'Forma correcta de hacerle petición.',
+        description: `Para poder hacerle petición para poder obtener datos, como el username, el avatar, el discriminador, las flags, si tiene nitro o no, el banner y cosas del usuario públicas, podrás obtenerlo con esta API de forma segura y sin problemas.
+        <br>
+        En ciencia cierta la forma de hacerle petición correcta es la siguiente <br> <a class="sub-b"> <text>https://api.mdcdev.me/v1/users/[ID_DEL_USUARIO] </text> </a>
+        <br>
+        En palabras claras, al final de <a class="sub-b"> <text> users/ </text> </a>  vendría la identificación del usuario que quieres obtener información suya, en caso mío, sería.
+        <br>
+        <a class="sub-b"> <text>https://api.mdcdev.me/v1/users/482637805034668032 </text></a>
+        <br>
+        y se vería así cuando le haces una petición (EN MI CASO):
+        `,
+        img: "img/mdc/explain.png",
+        href: null
+
+      },
+      {
+        title: "Source code!",
+        description: "Simplemente hay source code público para todos.",
+        href: "https://github.com/MDCYT/api.mdcdev.me",
+        img: "img/api.mdcdev.me.png",
+
+      }
+    ],
+    img: null
+  }
+)
 this.blogs.set("wabot", 
 {
     title: 'WaBot',
     logo: "img/wabot/logo.jpg",
+    meta: "wabot",
+
     description: 'Explicación del proyecto.',
     fields: [
       {
@@ -57,6 +156,8 @@ this.blogs.set("wabot",
 this.blogs.set("megumin-bot", 
 {
     title: 'MeguminBot de Discord',
+    meta: "megumin-bot",
+
     logo: "img/megumin-bot/logo.png",
     description: 'Información sobre él bot y por qué el de su desarrollo',
     fields: [
@@ -96,6 +197,8 @@ this.blogs.set("vaporeon-bot",
 {
     title: 'VaporeonBot de Discord',
     logo: "img/vaporeon-bot/logo.png",
+    meta: "vaporeon-bot",
+
     description: 'Información sobre él bot y por qué el de su desarrollo',
     fields: [
       {
@@ -119,6 +222,8 @@ this.blogs.set("vaporeon-bot",
 this.blogs.set("mrniz-page", 
 {
     title: 'Mi página web!',
+    meta: "mrniz-page",
+
     logo: "img/mrniz-page/logo.png",
     description: '¡Hechale un vistazo!',
     fields: [
